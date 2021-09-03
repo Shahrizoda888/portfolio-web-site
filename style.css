@@ -26,7 +26,67 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 8px 25px;
     transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: #fff;
+    color: black;
+    box-shadow: 0 0 10px white ;
+    
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 840px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url('photo-1515138692129-197a2c608cfd.jfif') no-repeat center center/cover;
+    height: 995px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+    
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+
+
+.headings{
+    font-family: century;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    transition: .6s ease;
 }
