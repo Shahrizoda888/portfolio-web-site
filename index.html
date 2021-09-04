@@ -7,25 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="/phone.css">
 </head>
 
 <body>
     <nav class="navbar">
         <ul>
             <li>
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
             </li>
             <li>
-                <a href="#">About me</a>
+                <a href="#about">About me</a>
             </li>
             <li>
-                <a href="#">Portfolio</a>
+                <a href="#portfolio">Portfolio</a>
             </li>
             <li>
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
             </li>
             <li>
-                <a href="#">Contact me</a>
+                <a href="#contact">Contact me</a>
             </li>
         </ul>
     </nav>
@@ -48,7 +50,7 @@
             <img src="photo-1515138692129-197a2c608cfd.jfif" alt="">
             <div class="" id="intro">
                 <h2>SHAHRIZODA SUBHONOVA</h2>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam ratione minus, obcaecati magni asperiores, omnis adipisci, laboriosam quaerat voluptas neque odio iusto. Est accusantium saepe corporis quisquam veritatis iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quia nihil soluta voluptatibus consectetur delectus aliquid, eligendi quod ducimus necessitatibus illum amet suscipit. Ut, nostrum neque! Distinctio animi recusandae, aliquam labore ad culpa, asperiores quia, earum voluptatibus repellat molestias sit blanditiis neque vero. Voluptates mollitia dolorum expedita quis a cumque odit aut totam minima beatae provident assumenda, natus, nam obcaecati quia dolore, animi consequuntur vero minus ex dignissimos nostrum modi? Illo error saepe eos, voluptatibus quas libero nihil repellendus at exercitationem sequi praesentium earum aliquid sed delectus ad quo culpa.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis magnam ratione minus, obcaecati magni asperiores, omnis adipisci, laboriosam quaerat voluptas neque odio iusto. Est accusantium saepe corporis quisquam veritatis iste! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, quia nihil soluta voluptatibus consectetur delectus aliquid, eligendi quod ducimus necessitatibus illum amet suscipit. Ut, nostrum neque! Distinctio animi recusandae, aliquam labore ad culpa, asperiores quia, earum voluptatibus repellat molestias sit blanditiis neque vero. Voluptates mollitia dolorum expedita quis a cumque odit aut totam minima beatae provident assumenda, natus, nam obcaecati quia dolore, animi consequuntur vero minus ex dignissimos nostrum modi? Illo error saepe eos, voluptatibus quas libero nihil repellendus at exercitationem sequi praesentium earum aliquid sed delectus ad quo culpa. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate modi saepe quibusdam maxime, nisi placeat mollitia beatae enim exercitationem sit commodi ea fuga ipsam porro velit quis nemo eligendi consequuntur!
             </div>
         </div>
     </section>
@@ -67,11 +69,17 @@
 
 
     <section id="services">
+        
+        
+        
         <h1 class="headings">
+            
             SERVICES
         </h1>
+        
         <div class="row">
             <div class="box">
+                <img src="/front-end-isolated-icon-simple-element-from-vector-28218197.jpg" alt="">
                 <h1 class="headings">
                     Frontend
                 </h1>
@@ -79,6 +87,7 @@
             </div>
 
             <div class="box">
+                <img src="/backend.jpg" alt="">
                 <h1 class="headings">
                     Backend
                 </h1>
@@ -86,12 +95,25 @@
             </div>
 
             <div class="box">
+                <img src="/github.png" alt="">
                 <h1 class="headings">
                     Git/Github
                 </h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem eius nisi molestiae inventore unde quasi tempore nam iste officiis, voluptates possimus vitae! Dolores repellendus voluptates harum, quam dolorem soluta mollitia.</p>
             </div>
         </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">
+            CONTACT
+        </h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
     </section>
 
 
