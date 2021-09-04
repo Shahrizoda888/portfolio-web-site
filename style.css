@@ -51,6 +51,7 @@ html{
     justify-content: center;
     align-items: center;
     color: white;
+    font-family: century;
 }
 
 #home::before{
@@ -93,6 +94,7 @@ html{
     border: 1px solid white;
     color: white;
     transition: .6s ease;
+    font-family: century;
 }
 
 .btn:hover{
@@ -190,7 +192,7 @@ html{
     text-align: justify;
     padding: 10px;
     border-radius: 15px;
-    background: linear-gradient( to top, rgba(0, 0, 0, 0.6) 50%, white 50%);
+    background: linear-gradient( to top, rgb(24, 23, 23) 50%, white 50%);
     background-size: 100% 200%;
     transition: all .8;
     cursor: pointer;
@@ -200,7 +202,7 @@ html{
     background-position: left bottom;
     color: white;
     border: none;
-    box-shadow: rgb(0, 0, 0, 0.6);
+    box-shadow: 0 0 10px black;
 }
 
 .box img{
