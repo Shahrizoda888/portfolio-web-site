@@ -135,9 +135,18 @@
 
 #portfolio{
     display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+.gallery{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-
+    box-sizing: border-box;
 }
 
 
@@ -146,4 +155,44 @@
     height: 240px;
     margin: 10px;
     
+}
+
+
+#services{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+
+.box{
+    color: rgb(255,45,45);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid rgb(255,45,45);
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient( to top, rgb(255,45,45) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all .8;
+}
+
+.box:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb(255,45,45);
 }
